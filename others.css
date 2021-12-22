@@ -1,0 +1,74 @@
+/*New others*/
+ThisColor {
+  color: #5B33FF;
+}
+
+.div-for-athor h1,
+.div-for-athor h4,
+.div-for-athor hr,
+.div-for-athor p,
+.div-for-athor div {
+  margin: 0px;
+}
+
+.inst {
+  background-image: url(./Image/Instagram.png);
+  border-radius: 10px;
+}
+
+.faceb {
+  background-image: url(./Image/FaceBook.png);
+  border-radius: 10px;
+}
+
+.twit {
+  background-image: url(./Image/Twitter.png);
+  border-radius: 10px;
+}
+
+.git {
+  background-image: url(./Image/GitHub.png);
+  border-radius: 10px;
+}
+
+.yout {
+  background-image: url(./Image/Youtube.png);
+  border-radius: 10px;
+}
+
+.vertical-line {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  border-left: 6px solid #5B33FF;
+  height: 30px;
+  width: 50%;
+}
+
+.vertical-line h3 {
+  align-self: center;
+  color: #5B33FF;
+}
+
+/*End of New others*/
+
+.bottom-margin {
+
+  margin-bottom: 20px;
+}
+
+
+
+.d-for-contact button {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: black;
+  font-weight: bold;
+}
+
+
+.d-div-about div button {
+  width: 32px;
+  height: 32px;
+  background-color: darkslateblue;
+}
