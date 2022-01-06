@@ -46,7 +46,9 @@ body>div {
   align-items: center;
 }
 
-.div-for-information {}
+.div-for-information {
+  overflow-y: scroll;
+}
 
 /* End of first divs */
 
@@ -78,6 +80,15 @@ body>div {
 .div-for-download {
   display: flex;
   flex-direction: row;
+}
+
+.div-for-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 4px;
+  border-style: double;
+  border-color: #91A2A4;
 }
 
 /* End of second divs in .div-for-information */

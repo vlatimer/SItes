@@ -11,6 +11,39 @@ ThisColor {
   margin: 0px;
 }
 
+/* Start div-for-text in div-for-information */
+.div-for-text h4 {
+  margin: 0;
+  opacity: 0.75;
+}
+
+.div-for-text i {
+  font-size: x-small;
+  opacity: 0.3;
+}
+
+.div-for-text p {
+  margin-top: 5px;
+  font-size: small;
+  opacity: 0.6;
+}
+
+.div-for-information::-webkit-scrollbar {
+  display: none;
+}
+
+.div-for-text code {
+  font-family: Consolas,
+    "courier new";
+  color: rgb(163, 43, 243);
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 85%;
+}
+
+
+/* End div-for-text in div-for-information */
+
 .inst {
   background-image: url(./Image/Instagram.png);
   border-radius: 10px;
@@ -37,8 +70,8 @@ ThisColor {
 }
 
 .vertical-line {
-  margin-top: 20px;
-  justify-content: center;
+  margin-top: 15px;
+  justify-content: flex-start;
   display: flex;
   border-left: 6px solid #5B33FF;
   height: 30px;
@@ -46,29 +79,12 @@ ThisColor {
 }
 
 .vertical-line h3 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 10px;
   align-self: center;
   color: #5B33FF;
 }
 
+
 /*End of New others*/
-
-.bottom-margin {
-
-  margin-bottom: 20px;
-}
-
-
-
-.d-for-contact button {
-  display: table-cell;
-  vertical-align: middle;
-  background-color: black;
-  font-weight: bold;
-}
-
-
-.d-div-about div button {
-  width: 32px;
-  height: 32px;
-  background-color: darkslateblue;
-}
