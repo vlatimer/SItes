@@ -54,19 +54,30 @@ body>div {
 
 /* Second divs in .div-for-athor */
 .div-for-contact {
+  position: relative;
   cursor: pointer;
   height: 25px;
   color: white;
   font-size: 11px;
   display: flex;
   align-items: center;
-  background-color: #5B33FF;
   border-radius: 10px;
 }
 
-.div-for-contact:hover {
-  background-color: #180179;
+/*Animation*/
+.div-for-contact {
+  background-color: #5B33FF;
+  box-shadow: 0 5px 0 #180179;
+  transition-duration: 500ms;
 }
+
+.div-for-contact:hover {
+  top: 2px;
+  background-color: #18b5a4;
+  box-shadow: 0 3px 0 #180179;
+}
+
+/*End of Animation*/
 
 .div-for-socialNetworks {
   border-style: none;

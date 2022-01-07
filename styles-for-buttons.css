@@ -15,18 +15,33 @@ button {
 /*Buttons for .div-for-buttons*/
 
 .div-for-buttons button {
+  position: relative;
   margin: 2.5px;
   height: 30px;
+  border-radius: 8px;
+}
+
+/* Animation */
+
+.div-for-buttons button {
   background-color: #5B33FF;
+  box-shadow: 0 5px 0 #9074ff;
+  transition-duration: 100ms;
 }
 
 .div-for-buttons button:hover {
-  background-color: #180179;
+  top: 2px;
+  background-color: #18b5a4;
+  box-shadow: 0 3px 0 #9074ff;
 }
 
+/*End of Animation*/
+
+/*
 .div-for-buttons button::before {
   background-color: #180179;
 }
+*/
 
 
 /*End of buttons for .div-for-buttons*/
@@ -34,34 +49,67 @@ button {
 /*Buttons for .div-for-athor*/
 
 .div-for-athor .div-for-contact button {
-  background-color: #5B33FF;
+  position: relative;
   font-size: 11px;
   border-radius: 10px;
 }
 
-.div-for-athor .div-for-contact:hover button {
-  background-color: #180179;
+/*Animation*/
+.div-for-athor .div-for-contact button {
+  background-color: #5B33FF;
+  transition-duration: 500ms;
 }
+
+.div-for-athor .div-for-contact:hover button {
+  top: 2px;
+  background-color: #18b5a4;
+}
+
+/* End of Animation */
 
 .div-for-socialNetworks button {
   height: 40px;
   width: 40px;
+  position: relative;
 }
+
+/*Animation*/
+.div-for-socialNetworks button {
+  box-shadow: 0 5px 0 gray;
+  transition-duration: 100ms;
+}
+
+.div-for-socialNetworks button:hover {
+  top: 2px;
+  box-shadow: 0 3px 0 gray;
+}
+
+/* End of Animation*/
 
 /*End of buttons for .div-for-athor*/
 
 /*Buttons for .div-for-information*/
 
 .div-for-download button {
+  position: relative;
+  border-radius: 10px;
   height: 30px;
   margin-right: 15px;
-  background-color: #5B33FF;
   font-size: 11px;
 }
 
-.div-for-download button:hover {
-  height: 30px;
-  margin-right: 15px;
-  background-color: #180179;
-  font-size: 11px;
+/*Animation*/
+
+.div-for-download button {
+  background-color: #5B33FF;
+  box-shadow: 0 5px 0 #180179;
+  transition-duration: 500ms;
 }
+
+.div-for-download button:hover {
+  top: 2px;
+  background-color: #18b5a4;
+  box-shadow: 0 3px 0 #180179;
+}
+
+/* End of Animation*/
