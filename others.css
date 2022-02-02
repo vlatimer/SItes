@@ -9,7 +9,58 @@ ThisColor {
 .div-for-athor p,
 .div-for-athor div {
   margin: 0px;
+  border-radius: 10px;
 }
+
+/*Animation*/
+
+.animationForD {
+  animation-play-state: running;
+  animation-name: highlighting-and-change-color;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+
+@keyframes highlighting-and-change-color {
+  0% {
+    background-color: none;
+  }
+
+  50% {
+    color: white;
+    background-color: #5B33FF;
+  }
+
+  100% {
+    background-color: none;
+  }
+}
+
+.animationForThisColor {
+  animation-play-state: running;
+  animation-name: highlighting-ThisColor;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+
+@keyframes highlighting-ThisColor {
+  0% {
+    color: #5B33FF
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: #5B33FF;
+  }
+}
+
+
+
+
+/*End of Animation*/
 
 /* Start div-for-text in div-for-information */
 .div-for-text h4 {
@@ -85,6 +136,17 @@ ThisColor {
   align-self: center;
   color: #5B33FF;
 }
+
+.blog h1 {
+  font-size: 35px;
+  align-self: center;
+}
+
+.blog h4 {
+  padding-top: 10px;
+  align-self: center;
+}
+
 
 
 /*End of New others*/

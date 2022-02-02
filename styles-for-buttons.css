@@ -26,23 +26,17 @@ button {
 .div-for-buttons button {
   background-color: #5B33FF;
   box-shadow: 0 5px 0 #9074ff;
-  transition-duration: 100ms;
+  transition-duration: 300ms;
 }
 
 .div-for-buttons button:hover {
   top: 2px;
-  background-color: #18b5a4;
+  background-color: #a8005f;
   box-shadow: 0 3px 0 #9074ff;
 }
 
+
 /*End of Animation*/
-
-/*
-.div-for-buttons button::before {
-  background-color: #180179;
-}
-*/
-
 
 /*End of buttons for .div-for-buttons*/
 
@@ -62,7 +56,7 @@ button {
 
 .div-for-athor .div-for-contact:hover button {
   top: 2px;
-  background-color: #18b5a4;
+  background-color: #a8005f;
 }
 
 /* End of Animation */
@@ -102,14 +96,14 @@ button {
 
 .div-for-download button {
   background-color: #5B33FF;
-  box-shadow: 0 5px 0 #180179;
+  box-shadow: 0 5px 0 #490009;
   transition-duration: 500ms;
 }
 
 .div-for-download button:hover {
   top: 2px;
-  background-color: #18b5a4;
-  box-shadow: 0 3px 0 #180179;
+  background-color: #a8005f;
+  box-shadow: 0 3px 0 #490009;
 }
 
 /* End of Animation*/

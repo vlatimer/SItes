@@ -53,6 +53,17 @@ body>div {
 /* End of first divs */
 
 /* Second divs in .div-for-athor */
+
+.blog {
+  border-radius: 10px;
+  display: flex;
+  width: 367.594px;
+  height: 70px;
+  flex-direction: column;
+  align-self: center;
+}
+
+
 .div-for-contact {
   position: relative;
   cursor: pointer;
@@ -67,14 +78,14 @@ body>div {
 /*Animation*/
 .div-for-contact {
   background-color: #5B33FF;
-  box-shadow: 0 5px 0 #180179;
+  box-shadow: 0 5px 0 #490009;
   transition-duration: 500ms;
 }
 
 .div-for-contact:hover {
   top: 2px;
-  background-color: #18b5a4;
-  box-shadow: 0 3px 0 #180179;
+  background-color: #a8005f;
+  box-shadow: 0 3px 0 #490009;
 }
 
 /*End of Animation*/

@@ -16,20 +16,21 @@
       <button onclick="href='#home'">HOME</button>
       <button onclick="href='#resume'">RESUME</button>
       <button onclick="href='#skills'">SKILLS</button>
-      <button>PORTFOLIO</button>
-      <button>BLOG</button>
+      <button id = "portfolio">PORTFOLIO</button>
+      <button id = "blog">BLOG</button>
       <button>CONTACT</button>
     </div>
     <div class = "div-for-athor">
         <img style="border-radius: 50%;" src="./Image/john_rex.jpeg" alt="John Rex's photo">
+        <div class = "blog">
+          <h1>Hi, i'm <ThisColor>John Rex!</ThisColor></h1>
 
-        <h1 style="font-size: 35px;">Hi, i'm <ThisColor>John Rex!</ThisColor></h1>
-
-        <h4>Web Designer & Developer</h4>
+          <h4>Web Designer & Developer</h4>
+        </div>
 
         <hr style="width: 80%;">
 
-        <p style="text-align: center; color: rgba(0,0,0,0.5);">Founder of DorRex. Professional UI/UX designer and web developer based on London. Sometimes works as a freelanser</p>
+        <p id = "portfolioDo"style="text-align: center; color: rgba(0,0,0,0.5);">Founder of DorRex. Professional UI/UX designer and web developer based on London. Sometimes works as a freelanser</p>
 
         <div class="div-for-contact">
           <button onclick="location.href='mailto:john@dotrex.co'">email: john@dotrex.co</button>
@@ -47,7 +48,7 @@
     </div>
     <div class="div-for-information">
       <!-- RESUME -->
-      <h2 name = "resume" style="margin-bottom: 0;">RESUME</h2>
+      <h2 id = "resume" style="margin-bottom: 0;">RESUME</h2>
 
       <hr style="width: 95%;">
 
@@ -78,7 +79,7 @@
       </div>
       <!-- End of RESUME -->
       <!-- SKILLS -->
-      <h2 name = "skills" style="margin-bottom: 0;">SKILLS</h2>
+      <h2 id = "skills" style="margin-bottom: 0;">SKILLS</h2>
 
       <hr style="width: 95%;">
 
@@ -108,6 +109,7 @@
 
       <!-- End of SKILLS -->
     </div>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 
 </html>
