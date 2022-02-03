@@ -29,6 +29,12 @@ button {
   transition-duration: 300ms;
 }
 
+.div-for-buttons button:focus {
+  top: 2px;
+  background-color: #a8005f;
+  box-shadow: 0 3px 0 #9074ff;
+}
+
 .div-for-buttons button:hover {
   top: 2px;
   background-color: #a8005f;
@@ -76,6 +82,39 @@ button {
 .div-for-socialNetworks button:hover {
   top: 2px;
   box-shadow: 0 3px 0 gray;
+}
+
+.animation-socialNetworks1 {
+  animation-play-state: running;
+  animation-name: animaton-socialNetworks;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-delay: 0.3s;
+}
+
+.animation-socialNetworks2 {
+  animation-play-state: running;
+  animation-name: animaton-socialNetworks;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  animation-delay: 0.7s;
+}
+
+@keyframes animaton-socialNetworks {
+  0% {
+    top: 3px;
+    box-shadow: 0 2px 0 gray;
+  }
+
+  50% {
+    top: -13px;
+    box-shadow: 0 15px 0 gray;
+  }
+
+  100% {
+    top: 3px;
+    box-shadow: 0 2px 0 gray;
+  }
 }
 
 /* End of Animation*/
