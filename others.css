@@ -14,10 +14,10 @@ ThisColor {
 
 /*Animation*/
 
-.animationForD {
+.animationLightning {
   animation-play-state: running;
   animation-name: highlighting-and-change-color;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 2;
 }
 
@@ -39,7 +39,7 @@ ThisColor {
 .animationForThisColor {
   animation-play-state: running;
   animation-name: highlighting-ThisColor;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 2;
 }
 

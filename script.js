@@ -9,62 +9,43 @@ const buttonsForSocialNetwork = document.querySelectorAll('.div-for-socialNetwor
 
 //function
 
-function animationP(){
-  portfolio.classList.toggle('animationForD');
-  if(thisColor.classList.contains('animationForThisColor')){
-    thisColor.classList.remove('animationForThisColor');
-    blog.classList.remove('animationForD');
-  }
-  if(buttonsForSocialNetwork[0].classList.contains('animation-socialNetworks1')){
-    let i = 0;
-    for(let key of buttonsForSocialNetwork){
-    if (i % 2 == 0){
-      key.classList.remove('animation-socialNetworks1');
-    }
-    else{
-      key.classList.remove('animation-socialNetworks2');
-    }
-    i++;
-    } 
-  }
+function animationLightningPortfolio(){
+  portfolio.classList.add('animationLightning');
+  setTimeout(animationLightningPortfolioDelete, 2000);
 }
-function animationD(){
-  thisColor.classList.toggle('animationForThisColor');
-  blog.classList.toggle('animationForD');
-  if(portfolio.classList.contains('animationForD')){
-    portfolio.classList.remove('animationForD');
-  }
-  if(buttonsForSocialNetwork[0].classList.contains('animation-socialNetworks1')){
-    let i = 0;
-    for(let key of buttonsForSocialNetwork){
-    if (i % 2 == 0){
-      key.classList.remove('animation-socialNetworks1');
-    }
-    else{
-      key.classList.remove('animation-socialNetworks2');
-    }
-    i++;
-    } 
-  }
+
+function animationLightningPortfolioDelete(){
+  portfolio.classList.remove('animationLightning');
+}
+
+function animationLightningBlog(){
+  thisColor.classList.add('animationForThisColor');
+  blog.classList.add('animationLightning');
+  setTimeout(animationLightningBlogDelete, 2000);
+}
+
+function animationLightningBlogDelete(){
+  thisColor.classList.remove('animationForThisColor');
+  blog.classList.remove('animationLightning');
 }
 
 function setAnimationForButtonsForSocialNetwork(){
   let i = 0;
   for(let key of buttonsForSocialNetwork){
     if (i % 2 == 0){
-      key.classList.toggle('animation-socialNetworks1');
+      key.classList.add('animation-socialNetworks1');
     }
     else{
-      key.classList.toggle('animation-socialNetworks2');
+      key.classList.add('animation-socialNetworks2');
     }
     i++;
   }
-  if(portfolio.classList.contains('animationForD')){
-    portfolio.classList.remove('animationForD');
-  }
-  if(thisColor.classList.contains('animationForThisColor')){
-    thisColor.classList.remove('animationForThisColor');
-    blog.classList.remove('animationForD');
+  setTimeout(setAnimationForButtonsForSocialNetworkDelete, 2700);
+}
+function setAnimationForButtonsForSocialNetworkDelete(){
+  for(let key of buttonsForSocialNetwork){
+    key.classList.remove('animation-socialNetworks1');
+    key.classList.remove('animation-socialNetworks2');
   }
 }
 
@@ -81,8 +62,8 @@ function setSkillsScrollBy(){
   });
 }
 //events
-document.querySelector('#portfolio').onclick = animationP;
-document.querySelector('#blog').onclick = animationD;
+document.querySelector('#portfolio').onclick = animationLightningPortfolio;
+document.querySelector('#blog').onclick = animationLightningBlog;
 document.querySelector('#resume').onclick = setResumeScrollBy;
 document.querySelector('#skills').onclick = setSkillsScrollBy;
 document.querySelector('#contact').onclick = setAnimationForButtonsForSocialNetwork;
