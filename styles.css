@@ -78,14 +78,14 @@ body>div {
 /*Animation*/
 .div-for-contact {
   background-color: #5B33FF;
-  box-shadow: 0 5px 0 #490009;
+  box-shadow: 0 5px 0 #ffaf02;
   transition-duration: 500ms;
 }
 
 .div-for-contact:hover {
   top: 2px;
-  background-color: #a8005f;
-  box-shadow: 0 3px 0 #490009;
+  background-color: #ffaf02;
+  box-shadow: 0 3px 0 #5B33FF;
 }
 
 /*End of Animation*/
