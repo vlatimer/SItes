@@ -1,0 +1,152 @@
+/*New others*/
+ThisColor {
+  color: #5B33FF;
+}
+
+.div-for-athor h1,
+.div-for-athor h4,
+.div-for-athor hr,
+.div-for-athor p,
+.div-for-athor div {
+  margin: 0px;
+  border-radius: 10px;
+}
+
+/*Animation*/
+
+.animationLightning {
+  animation-play-state: running;
+  animation-name: highlighting-and-change-color;
+  animation-duration: 0.75s;
+  animation-iteration-count: 2;
+}
+
+@keyframes highlighting-and-change-color {
+  0% {
+    background-color: none;
+  }
+
+  50% {
+    color: white;
+    background-color: #5B33FF;
+  }
+
+  100% {
+    background-color: none;
+  }
+}
+
+.animationForThisColor {
+  animation-play-state: running;
+  animation-name: highlighting-ThisColor;
+  animation-duration: 0.75s;
+  animation-iteration-count: 2;
+}
+
+@keyframes highlighting-ThisColor {
+  0% {
+    color: #5B33FF
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: #5B33FF;
+  }
+}
+
+
+
+
+/*End of Animation*/
+
+/* Start div-for-text in div-for-information */
+.div-for-text h4 {
+  margin: 0;
+  opacity: 0.75;
+}
+
+.div-for-text i {
+  font-size: x-small;
+  opacity: 0.3;
+}
+
+.div-for-text p {
+  margin-top: 5px;
+  font-size: small;
+  opacity: 0.6;
+}
+
+.div-for-information::-webkit-scrollbar {
+  display: none;
+}
+
+.div-for-text code {
+  font-family: Consolas,
+    "courier new";
+  color: rgb(163, 43, 243);
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 85%;
+}
+
+
+/* End div-for-text in div-for-information */
+
+.inst {
+  background-image: url(./Image/Instagram_logo.png);
+  border-radius: 10px;
+}
+
+.faceb {
+  background-image: url(./Image/FaceBook.png);
+  border-radius: 10px;
+}
+
+.twit {
+  background-image: url(./Image/Twitter.png);
+  border-radius: 10px;
+}
+
+.git {
+  background-image: url(./Image/GitHub.png);
+  border-radius: 10px;
+}
+
+.yout {
+  background-image: url(./Image/Youtube.png);
+  border-radius: 10px;
+}
+
+.vertical-line {
+  margin-top: 15px;
+  justify-content: flex-start;
+  display: flex;
+  border-left: 6px solid #5B33FF;
+  height: 30px;
+  width: 50%;
+}
+
+.vertical-line h3 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 10px;
+  align-self: center;
+  color: #5B33FF;
+}
+
+.blog h1 {
+  font-size: 35px;
+  align-self: center;
+}
+
+.blog h4 {
+  padding-top: 10px;
+  align-self: center;
+}
+
+
+
+/*End of New others*/
