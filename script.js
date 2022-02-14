@@ -1,6 +1,6 @@
 //const
 const portfolio = document.querySelector('#portfolioDo');
-const blog = document.querySelector('.blog') ;
+const blog = document.querySelector('.blog');
 const span = document.querySelector('span');
 const divForInformation = document.querySelector('.div-for-information');
 const resume = document.querySelector('#resumeDo');
@@ -9,56 +9,57 @@ const buttonsForSocialNetwork = document.querySelectorAll('.div-for-socialNetwor
 
 //function
 
-function animationLightningPortfolio(){
+function animationLightningPortfolio() {
   portfolio.classList.add('animationLightning');
   setTimeout(animationLightningPortfolioDelete, 2000);
 }
 
-function animationLightningPortfolioDelete(){
+function animationLightningPortfolioDelete() {
   portfolio.classList.remove('animationLightning');
 }
 
-function animationLightningBlog(){
+function animationLightningBlog() {
   span.classList.add('animationForSpan');
   blog.classList.add('animationLightning');
   setTimeout(animationLightningBlogDelete, 2000);
 }
 
-function animationLightningBlogDelete(){
+function animationLightningBlogDelete() {
   span.classList.remove('animationForSpan');
   blog.classList.remove('animationLightning');
 }
 
-function setAnimationForButtonsForSocialNetwork(){
+function setAnimationForButtonsForSocialNetwork() {
   let i = 0;
-  for(let key of buttonsForSocialNetwork){
-    if (i % 2 == 0){
+  for (let key of buttonsForSocialNetwork) {
+    if (i % 2 == 0) {
       key.classList.add('animation-socialNetworks1');
-    }
-    else{
+    } else {
       key.classList.add('animation-socialNetworks2');
     }
     i++;
   }
   setTimeout(setAnimationForButtonsForSocialNetworkDelete, 2700);
 }
-function setAnimationForButtonsForSocialNetworkDelete(){
-  for(let key of buttonsForSocialNetwork){
+
+function setAnimationForButtonsForSocialNetworkDelete() {
+  for (let key of buttonsForSocialNetwork) {
     key.classList.remove('animation-socialNetworks1');
     key.classList.remove('animation-socialNetworks2');
   }
 }
 
-function setResumeScrollBy(){
+function setResumeScrollBy() {
   resume.scrollIntoView({
     block: "center",
-    behavior:"smooth"
+    behavior: "smooth"
   });
 }
-function setSkillsScrollBy(){
+
+function setSkillsScrollBy() {
   skills.scrollIntoView({
     block: "center",
-    behavior:"smooth"
+    behavior: "smooth"
   });
 }
 //events

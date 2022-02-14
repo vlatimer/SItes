@@ -79,9 +79,9 @@ span {
   opacity: 0.6;
 }
 
-.div-for-information::-webkit-scrollbar {
+/* .div-for-information::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .div-for-text code {
   font-family: Consolas,
