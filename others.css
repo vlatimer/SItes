@@ -1,5 +1,5 @@
 /*New others*/
-ThisColor {
+span {
   color: #5B33FF;
 }
 
@@ -36,7 +36,7 @@ ThisColor {
   }
 }
 
-.animationForThisColor {
+.animationForSpan {
   animation-play-state: running;
   animation-name: highlighting-ThisColor;
   animation-duration: 0.75s;

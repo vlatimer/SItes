@@ -1,7 +1,7 @@
 //const
 const portfolio = document.querySelector('#portfolioDo');
 const blog = document.querySelector('.blog') ;
-const thisColor = document.querySelector('ThisColor');
+const span = document.querySelector('span');
 const divForInformation = document.querySelector('.div-for-information');
 const resume = document.querySelector('#resumeDo');
 const skills = document.querySelector('#skillsDo');
@@ -19,13 +19,13 @@ function animationLightningPortfolioDelete(){
 }
 
 function animationLightningBlog(){
-  thisColor.classList.add('animationForThisColor');
+  span.classList.add('animationForSpan');
   blog.classList.add('animationLightning');
   setTimeout(animationLightningBlogDelete, 2000);
 }
 
 function animationLightningBlogDelete(){
-  thisColor.classList.remove('animationForThisColor');
+  span.classList.remove('animationForSpan');
   blog.classList.remove('animationLightning');
 }
 
