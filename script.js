@@ -1,4 +1,9 @@
 //const
+console.log(document.documentElement.clientWidth);
+console.log(document.documentElement.clientHeight);
+console.log(document.querySelector('.div-for-buttons').clientWidth);
+console.log(document.querySelector('.div-for-athor').clientWidth);
+console.log(document.querySelector('.div-for-information').clientWidth);
 const portfolio = document.querySelector('#portfolioDo');
 const blog = document.querySelector('.blog');
 const span = document.querySelector('span');

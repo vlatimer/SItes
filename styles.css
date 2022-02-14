@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  margin-top: 2vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -15,11 +16,11 @@ body {
 
 body>div {
   /* Done */
-  height: 580px;
+  height: 83vh;
   padding-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
-  width: 300px;
+  width: 35vw;
   margin: 5px;
   display: flex;
   font-family: sans-serif;
@@ -32,9 +33,8 @@ body>div {
 /* First divs */
 .div-for-buttons {
   /* Done */
-  margin: 10px;
-  height: 600px;
-  width: 200px;
+  height: 85vh;
+  width: 15vw;
   padding: 0;
   border-style: none;
   background-image: none;
@@ -62,7 +62,8 @@ body>div {
   display: flex;
   height: 70px;
   flex-direction: column;
-  align-self: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .div-for-contact {
