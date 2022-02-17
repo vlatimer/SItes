@@ -4,6 +4,7 @@ html {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  background: url(./Image/background_for_file_2.jpg) 100%;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   width: 100%;
   overflow: hidden;
   margin: auto;
-  background: url(./Image/background_for_file_2.jpg) 100% no-repeat;
+  background: url(./Image/background_for_file_2.jpg) 100%;
 }
 
 .main {
