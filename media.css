@@ -46,8 +46,8 @@
     position: fixed;
     width: 40px;
     height: 30px;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: 10px;
     border-radius: 5px;
   }
 
@@ -112,7 +112,7 @@
 
   nav.burger_menu {
     position: relative;
-    left: -100px;
+    left: -1000px;
     height: 100%;
     transition: all 0.3s ease 0.3s;
     width: 100px;
@@ -124,7 +124,7 @@
 
   .burger_back {
     left: -100%;
-    top: 30px;
+    top: 40px;
     position: fixed;
     height: 200px;
     width: 150px;
@@ -135,7 +135,7 @@
   }
 
   nav.burger_menu.active .burger_back {
-    left: 0;
+    left: 10px;
   }
 
   .burger_double-back {
@@ -144,12 +144,12 @@
     width: 40px;
     height: 230px;
     top: -100%;
-    left: 0px;
+    left: 10px;
     z-index: -2;
     background-color: rgba(91, 51, 255, .9);
   }
 
   nav.burger_menu.active .burger_double-back {
-    top: 0;
+    top: 10px;
   }
 }

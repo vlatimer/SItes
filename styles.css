@@ -3,6 +3,7 @@ html {
   font-family: sans-serif;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   width: 100%;
   overflow: hidden;
   margin: auto;
-  background: url(./Image/background_for_file_2.jpg) 100%;
+  background: url(./Image/background_for_file_2.jpg) 100% no-repeat;
 }
 
 .main {
@@ -154,12 +155,12 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     top: -100%;
-    left: 5px;
+    left: 15px;
     z-index: 10;
   }
 
   .work {
-    top: 30px;
+    top: 40px;
   }
 
   .div-for-socialNetworks.work button {
