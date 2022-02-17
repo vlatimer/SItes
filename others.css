@@ -1,6 +1,11 @@
 /*New others*/
-span {
+.blog span {
   color: #5B33FF;
+}
+
+.imageClass {
+  border-radius: 50%;
+  max-width: 100%;
 }
 
 .div-for-athor h1,
@@ -19,6 +24,7 @@ span {
   animation-name: highlighting-and-change-color;
   animation-duration: 0.75s;
   animation-iteration-count: 2;
+  animation-delay: 0.3s;
 }
 
 @keyframes highlighting-and-change-color {
@@ -38,12 +44,13 @@ span {
 
 .animationForSpan {
   animation-play-state: running;
-  animation-name: highlighting-ThisColor;
+  animation-name: highlighting-Span;
   animation-duration: 0.75s;
   animation-iteration-count: 2;
+  animation-delay: 0.3s;
 }
 
-@keyframes highlighting-ThisColor {
+@keyframes highlighting-Span {
   0% {
     color: #5B33FF
   }
@@ -79,9 +86,9 @@ span {
   opacity: 0.6;
 }
 
-/* .div-for-information::-webkit-scrollbar {
+.div-for-information::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .div-for-text code {
   font-family: Consolas,
@@ -98,26 +105,31 @@ span {
 .inst {
   background-image: url(./Image/Instagram_logo.png);
   border-radius: 10px;
+  background-size: 100%
 }
 
 .faceb {
   background-image: url(./Image/FaceBook.png);
   border-radius: 10px;
+  background-size: 100%
 }
 
 .twit {
   background-image: url(./Image/Twitter.png);
   border-radius: 10px;
+  background-size: 100%
 }
 
 .git {
   background-image: url(./Image/GitHub.png);
   border-radius: 10px;
+  background-size: 100%
 }
 
 .yout {
   background-image: url(./Image/Youtube.png);
   border-radius: 10px;
+  background-size: 100%
 }
 
 .vertical-line {
@@ -147,6 +159,54 @@ span {
   align-self: center;
 }
 
+@media(max-width:810px) {
+  .blog h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:767px) {
+
+  .imageClass {
+    border-radius: 50%;
+    max-width: 75%;
+  }
+
+  .blog h1 {
+    font-size: 20px;
+  }
+
+  .blog h4 {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+
+  .div-for-athor p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .div-for-information h2 {
+    font-size: 20px;
+  }
+
+  .vertical-line {
+    height: 15px;
+    font-size: 10px;
+  }
+
+  .div-for-text h4 {
+    font-size: 15px;
+  }
+
+  .div-for-text i {
+    font-size: 10px;
+  }
+
+  .div-for-text p {
+    font-size: 10px;
+  }
+}
 
 
 /*End of New others*/

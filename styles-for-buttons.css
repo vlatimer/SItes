@@ -1,6 +1,6 @@
 /* All information*/
 
-button {
+.main button {
   cursor: pointer;
   font-weight: bold;
   font-family: monospace;
@@ -16,8 +16,9 @@ button {
 
 .div-for-buttons button {
   position: relative;
-  margin: 2.5px;
-  height: 30px;
+  margin-bottom: 5px;
+  height: 100;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -74,7 +75,6 @@ button {
   position: relative;
 }
 
-/*Animation*/
 .div-for-socialNetworks button {
   box-shadow: 0 5px 0 #5B33FF;
   transition-duration: 100ms;
@@ -84,6 +84,19 @@ button {
   top: 2px;
   box-shadow: 0 3px 0 #ffaf02;
 }
+
+.div-for-socialNetworks.work button {
+  box-shadow: 0 5px 0 #ffaf02;
+  transition-duration: 100ms;
+  border-radius: 50%;
+}
+
+.div-for-socialNetworks button:hover {
+  top: 2px;
+  box-shadow: 0 3px 0 #ffaf02;
+}
+
+/*Animation*/
 
 .animation-socialNetworks1 {
   animation-play-state: running;
