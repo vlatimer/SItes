@@ -78,6 +78,7 @@ function setSkillsScrollBy() {
 function burgerDoAnimation() {
   burgerAnimation.classList.toggle('active');
   burgerNav.classList.toggle('active');
+  divSocialNetwork.classList.remove('work');
 }
 
 function removeBurgerMenu() {
