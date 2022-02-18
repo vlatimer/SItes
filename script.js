@@ -93,6 +93,11 @@ document.querySelector('#blog').onclick = animationLightningBlog;
 document.querySelector('#resume').onclick = setResumeScrollBy;
 document.querySelector('#skills').onclick = setSkillsScrollBy;
 document.querySelector('#contact').onclick = setAnimationForButtonsForSocialNetwork;
+
+document.querySelector('#portfolioB').onclick = animationLightningPortfolio;
+document.querySelector('#blogB').onclick = animationLightningBlog;
+document.querySelector('#resumeB').onclick = setResumeScrollBy;
+document.querySelector('#skillsB').onclick = setSkillsScrollBy;
 document.querySelector('#contact_burger').onclick = rebuildSocialNetwork;
 //button close
 divSocialNetwork.onclick = removeBurgerMenu;
